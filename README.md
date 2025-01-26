@@ -29,7 +29,7 @@ FitClub is a gym management website designed to help users access fitness-relate
    ```sh
    git clone https://github.com/kaaado/Fit_Club.git
    cd Fit_Club
-   \`\`\`
+
 2. Change name of the folderto : gym
 3. Import the database:
    - Open phpMyAdmin
@@ -38,7 +38,7 @@ FitClub is a gym management website designed to help users access fitness-relate
 4. Configure the database connection in \`db.php\`:
    ```sh
    $conn = new mysqli('localhost', 'root', '', 'gym');
-   \`\`\`
+
 5. Start a local server:
    - If using XAMPP, start Apache & MySQL
    - Place the project in the \`htdocs\` folder
