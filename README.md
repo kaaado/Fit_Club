@@ -1,4 +1,4 @@
-# FitClub Gym Website
+echo "# FitClub Gym Website
 
 ## Description
 FitClub is a gym management website designed to help users access fitness-related resources, track progress, and manage memberships. It includes user authentication, exercise plans, and database integration.
@@ -46,5 +46,4 @@ FitClub is a gym management website designed to help users access fitness-relate
 ## Contribution
 Feel free to contribute by submitting pull requests or reporting issues.
 
-## License
-(Define if applicable, e.g., MIT)" > README.md
+"
