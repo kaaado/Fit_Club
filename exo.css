@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #111317;
+    --primary-color-light: #1f2125;
+    --primary-color-extra-light: #35373b;
+    --secondary-color: #f9ac54;
+    --secondary-color-dark: #d79447;
+    --text-light: #d1d5db;
+    --white: #ffffff;
+    --max-width: 1200px;
+  }
+
+.explore__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.explore__card {
+    background-color: (--primary-color-light); /* Updated color */
+    padding: 40px;
+    border-radius: 10px;
+    width: 45%;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added box-shadow */
+}
+
+.explore__card:hover {
+    background-color: rgba(--primary-color-extra-light); /* Updated hover color */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Added hover box-shadow */
+}
+
+.explore__card h4 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: var(--white);
+}
+
+.explore__card p, .explore__card ul {
+    color: var(--text-light);
+    margin-bottom: 10px;
+}
+
+.explore__card ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+.explore__card h5 {
+    color: var( --secondary-color-dark);
+
+}
+
+.explore__card .title-program {
+    color: var( --secondary-color-dark);
+
+}
