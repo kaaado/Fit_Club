@@ -1,4 +1,4 @@
-echo "# FitClub Gym Website
+## FitClub Gym Website
 
 ## Description
 FitClub is a gym management website designed to help users access fitness-related resources, track progress, and manage memberships. It includes user authentication, exercise plans, and database integration.
@@ -26,22 +26,23 @@ FitClub is a gym management website designed to help users access fitness-relate
 
 ### Steps
 1. Clone the repository:
-   \`\`\`sh
+   ```sh
    git clone https://github.com/kaaado/Fit_Club.git
    cd Fit_Club
    \`\`\`
-2. Import the database:
-   - Open \`phpMyAdmin\`
-   - Create a new database \`gym\`
-   - Import \`gym.sql\`
-3. Configure the database connection in \`db.php\`:
-   \`\`\`php
+2. Change name of the folderto : gym
+3. Import the database:
+   - Open phpMyAdmin
+   - Create a new database gym 
+   - Import  gym.sql
+4. Configure the database connection in \`db.php\`:
+   ```sh
    $conn = new mysqli('localhost', 'root', '', 'gym');
    \`\`\`
-4. Start a local server:
+5. Start a local server:
    - If using XAMPP, start Apache & MySQL
    - Place the project in the \`htdocs\` folder
-   - Access via \`http://localhost/gym\`
+   - Access via  http://localhost/gym
 
 ## Contribution
 Feel free to contribute by submitting pull requests or reporting issues.
